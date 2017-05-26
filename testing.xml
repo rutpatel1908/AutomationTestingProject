@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" thread-count="2" parallel="tests">
+<test name="ChromeTest">
+<classes>
+<parameter name="browser" value="chrome"/>
+<class name="ExtentReports.GenerateExtentReport">
+</class>
+</classes>
+</test>
+</suite>
